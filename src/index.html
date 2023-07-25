@@ -4,10 +4,49 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Leader Board</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header></header>
-    <main></main>
+    <main>
+      <h1>Leaderboard</h1>
+      <br />
+      <section class="main">
+        <section>
+          <div class="data">
+            <h4>Recent scores</h4>
+            <button>Refresh</button>
+          </div>
+          <ul class="list">
+            <li>Name: 100</li>
+            <li>Name: 20</li>
+            <li>Name: 50</li>
+            <li>Name: 78</li>
+            <li>Name: 125</li>
+            <li>Name: 77</li>
+            <li>Name: 42</li>
+          </ul>
+        </section>
+        <section class="formInputs">
+          <h4>Add your score</h4>
+          <form>
+            <input
+              type="text"
+              placeholder="Your name"
+              name="name"
+              class="name"
+            /><br /><br />
+            <input
+              type="text"
+              placeholder="Your score"
+              name="score"
+              class="score"
+            /><br /><br />
+            <button id="submit" type="submit">Submit</button>
+          </form>
+        </section>
+      </section>
+    </main>
     <footer></footer>
     <script src="index.js" type="module"></script>
   </body>
