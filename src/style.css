@@ -19,15 +19,15 @@ header {
 
 main {
   height: 100vh;
-  width: 30%;
+  width: 40%;
   margin: auto;
-  gap: 2em;
 }
 
 .main {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  gap: 1em;
 }
 
 .data {
