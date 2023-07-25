@@ -74,7 +74,7 @@ sh
 
 - Create a folder
 - cd into the folder you just created
-- Type git clone `https://github.com/NalianAchei2020/Capstone.git`
+- Type git clone `https://github.com/NalianAchei2020/LeaderBoard.git`
 
 ### Install
 
@@ -121,7 +121,7 @@ You can deploy this project using:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/NalianAchei2020/Capstone/issues).
+Feel free to check the [issues page](https://github.com/NalianAchei2020/LeaderBoard/issues).
 
 ## ⭐️ Show your support <a name="support"></a>
 
@@ -133,4 +133,4 @@ I would like to thank the Microverse community for their lessons and Cindy Shin 
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/NalianAchei2020/Capstone/blob/main/LICENSE) licensed
+This project is [MIT](https://github.com/NalianAchei2020/LeaderBoard/blob/development/LICENSE) licensed
