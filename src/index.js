@@ -1,6 +1,6 @@
 import './style.css';
-import { addData } from './module/data.js';
-import { displayData } from './module/displayData.js';
+import addData from './module/data.js';
+import displayData from './module/displayData.js';
 
 const btnSubmit = document.getElementById('submit');
 const btnRefresh = document.getElementById('refresh');

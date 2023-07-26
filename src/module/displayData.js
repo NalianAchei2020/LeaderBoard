@@ -1,8 +1,8 @@
 const list = document.querySelector('.list');
-export const displayData = async () => {
+const displayData = async () => {
   // Make a GET request to the API
   const response = await fetch(
-    'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/XvHI02amwzH3U49JcIeq/scores'
+    'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/XvHI02amwzH3U49JcIeq/scores',
   );
 
   if (!response.ok) {
@@ -16,7 +16,6 @@ export const displayData = async () => {
     // The API returned an array of objects with 'user' and 'score' properties
     items = data;
   } else if (typeof data === 'object' && data !== null) {
-    // The API returned an object with 'result' property containing an array of objects with 'user' and 'score' properties
     items = data.result;
   } else {
     throw new Error('Invalid data format from the API');
@@ -31,3 +30,5 @@ export const displayData = async () => {
   });
   list.style.display = 'block';
 };
+
+export default displayData;

@@ -1,7 +1,7 @@
 const name = document.querySelector('.name');
 const score = document.querySelector('.score');
 
-export const addData = async () => {
+const addData = async () => {
   const nameValue = name.value;
   const scoreInput = score.value;
   const response = await fetch(
@@ -10,9 +10,10 @@ export const addData = async () => {
       method: 'POST',
       headers: { 'Content-type': 'application/json' },
       body: JSON.stringify({ user: nameValue, score: scoreInput }),
-    }
+    },
   );
   if (!response.ok) {
     throw new Error('Failed to post data');
   }
 };
+export default addData;
