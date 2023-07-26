@@ -15,28 +15,26 @@
         <section>
           <div class="data">
             <h4>Recent scores</h4>
-            <button>Refresh</button>
+            <button id="refresh" type="button">Refresh</button>
           </div>
           <ul class="list"></ul>
         </section>
         <section class="formInputs">
           <h4>Add your score</h4>
           <br />
-          <form>
-            <input
-              type="text"
-              placeholder="Your name"
-              name="name"
-              class="name"
-            /><br /><br />
-            <input
-              type="text"
-              placeholder="Your score"
-              name="score"
-              class="score"
-            /><br /><br />
-            <button id="submit" type="submit">Submit</button>
-          </form>
+          <input
+            type="text"
+            placeholder="Your name"
+            name="name"
+            class="name"
+          /><br /><br />
+          <input
+            type="number"
+            placeholder="Your score"
+            name="score"
+            class="score"
+          /><br /><br />
+          <button id="submit">Submit</button>
         </section>
       </section>
     </main>
