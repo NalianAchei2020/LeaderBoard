@@ -34,4 +34,7 @@ export default {
       template: './src/index.html',
     }),
   ],
+  resolve: {
+    extensions: ['.js', '.mjs'],
+  },
 };
