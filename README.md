@@ -34,6 +34,9 @@
 
 This LEADERBOARD displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.
 
+![image](https://github.com/NalianAchei2020/LeaderBoard/assets/88759996/7da38a43-a6e4-442c-9cbb-4041b79e75c0)
+
+
 _[LEADERBOARD]_ is a Javascript, HTML, and CSS project
 
 ## 🛠 Built With <a name="built-with"></a>
